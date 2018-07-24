@@ -1,0 +1,6 @@
+scrape_configs:
+  - job_name: 'cablemodem'
+    # metrics_path defaults to '/metrics'
+    # scheme defaults to 'http'.
+    static_configs:
+    - targets: ['device:10000']
